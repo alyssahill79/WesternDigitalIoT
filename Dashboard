@@ -1,0 +1,239 @@
+---
+title: "Western Digital: IoT Data"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+---
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+# PNLC_MY_LC to VST_HK_HONG_KONG
+
+
+**Optimal Routes**
+
+- **20211207-02244**
+- **20220414-06958**
+- **20220809-03399**
+- **20221017-01819**
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Temperature
+
+```{r echo =FALSE, out.width="20%"}
+knitr::include_graphics("Lane1_Temp.png",error = FALSE)
+
+```
+
+### Humidity
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane1_Humidity.png",error = FALSE)
+
+```
+
+### Altitude
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane1_Altitude.png",error = FALSE)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Tilt
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane1_Tilt.png",error = FALSE)
+
+```
+
+### Pressure
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane1_Pressure.png",error = FALSE)
+
+```
+
+### Battery
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane1_Battery.png",error = FALSE)
+
+```
+
+
+# PNLC_MY_LC-IDEC_LOGISTICS_JP_TOKYO
+
+**Optimal Routes**
+
+- **20211229-05542**
+- **20210909-05334**
+- **20211209-05370**
+- **20220113-06625**
+- **20220819-02838**
+- **20220826-03186**
+- **20220902-02798**
+- **20220812-03181**
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+
+### Temperature
+
+```{r echo =FALSE, out.width="20%"}
+knitr::include_graphics("Lane3_Temp.png",error = FALSE)
+
+```
+
+### Humidity
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane3_Humidity.png",error = FALSE)
+
+```
+
+### Altitude
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane3_Altitude.png",error = FALSE)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Tilt
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane3_Tilt.png",error = FALSE)
+
+```
+
+### Pressure
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane3_Pressure.png",error = FALSE)
+
+```
+
+### Battery
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane3_Battery.png",error = FALSE)
+
+```
+
+
+# THLC_AGILITY_LC-CEVA_TORRANCE_LC
+
+**Optimal Routes**
+
+- **20200408-01275** 
+- **20221019-08239**
+- **20230131-04165**
+- **20220913-02908**
+- **20230214-02841**
+- **20230317-03658**
+- **20230316-10372**
+- **20230518-02682**
+- **20220913-00405**
+- **20221010-01884**
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Temperature
+
+```{r echo =FALSE, out.width="20%"}
+knitr::include_graphics("Lane4_Temp.png",error = FALSE)
+
+```
+
+### Humidity
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane4_Humidity.png",error = FALSE)
+
+```
+
+### Altitude
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane4_Altitude.png",error = FALSE)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Tilt
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane4_Tilt.png",error = FALSE)
+
+```
+
+### Pressure
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane4_Pressure.png",error = FALSE)
+
+```
+
+### Battery
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane4_Battery.png",error = FALSE)
+
+```
+
+# THLC_AGILITY_LC-EXPEDITORS_US_FL_MIAMI_LC
+
+**Optimal Routes**
+
+- **20230520-06329**
+- **20230523-03558**
+- **20230320-03640**
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Temperature
+
+```{r echo =FALSE, out.width="20%"}
+knitr::include_graphics("Lane5_Temp.png",error = FALSE)
+
+```
+
+### Humidity
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane5_Humidity.png",error = FALSE)
+
+```
+
+### Altitude
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane5_Altitude.png",error = FALSE)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Tilt
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane5_Tilt.png",error = FALSE)
+
+```
+
+### Pressure
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane5_Pressure.png",error = FALSE)
+
+```
+
+### Battery
+
+```{r echo =FALSE, out.width="100%"}
+knitr::include_graphics("Lane5_Battery.png",error = FALSE)
+
+```
